@@ -183,6 +183,33 @@ section { position: relative; z-index: 1; }
 .work-text a { color: var(--red); text-decoration: none; }
 .work-text a:hover { text-decoration: underline; }
 
+.process-card {
+  height: 100%;
+  padding: 1.75rem 1.75rem 1.25rem;
+  background: var(--off-black);
+  border: 1px solid rgba(245,245,245,0.12);
+  border-top: 3px solid var(--red);
+  position: relative;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.process-card:hover { transform: translateY(-4px); border-color: rgba(232,17,35,0.5); }
+.process-num {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem; letter-spacing: 0.3em; color: var(--red);
+  margin-bottom: 0.6rem;
+}
+.process-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.7rem; letter-spacing: 0.05em; line-height: 1.1;
+  color: var(--white); margin-bottom: 0.35rem;
+}
+.process-project {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600; font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;
+  color: rgba(245,245,245,0.5); margin-bottom: 1rem;
+}
+.process-card p { font-size: 0.98rem; line-height: 1.7; color: rgba(245,245,245,0.7); margin-bottom: 0; }
+
 /* CASES */
 .cases-intro { max-width: 600px; margin-top: 1.5rem; font-size: 1.05rem; line-height: 1.8; color: rgba(245,245,245,0.6); }
 .case-card {
